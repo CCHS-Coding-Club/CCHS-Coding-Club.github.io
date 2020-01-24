@@ -36,15 +36,27 @@
       <br>
       <div class="jumbotron bg-light" style="padding-top: 45px;">
         <!-- Content Goes Here -->
-        <h1> Zhoucai Ni </h1>
+        <h1 class="text-center"> Zhoucai Ni </h1>
+        <p id="text2">Hello,Welcome to Zhoucai's personal page.</p>
         <p>He is the current president and the founder of the Computer Science Club at Cape Coral High. Zhoucai has created
           many coding projects such as facial recognition and machine learning softwares. You can find some of it on his <a href="https://github.com/Zucchini-byte" target="_blank">Github</a>.
           <marquee direction="right"><img src="https://i.ya-webdesign.com/images/tesla-transparent-side-view.png" style="width: 60px;" ></marquee>
+
+        
         </p>
+
+        <p id="text2">
       </div>
     </div>
 
     <!-- JavaScript -->
+    <script > 
+    var noun = prompt("What is your name?");
+    if(noun != null){
+    document.getElementById("text2").innerHTML = "Hi," + noun +". Welcome to Zhoucai's personal page!"  ; 
+    }
+
+    </script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
