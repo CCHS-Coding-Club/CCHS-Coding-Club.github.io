@@ -1,0 +1,22 @@
+div img{
+    border-radius: 10px;
+    border:pink solid 10px;
+  }
+  
+  /* The animation code */
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+  
+  /* The element to apply the animation to */
+  .lemon {
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+     
+  }
