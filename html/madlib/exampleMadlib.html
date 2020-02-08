@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta property="og:site_name" content="Cape Coral Coding Club"/>
+    <meta property="og:title" content="Cape Coral Coding Club Home Page"/>
+    <meta property="og:url" content="/"/>
+    <meta name="description" property="og:description" content=""/>
+
+    <!-- External Files -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Cape Coral Coding Club</title>
+  </head>
+
+  <body class="bg-primary">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <span class="navbar-brand">Cape Coral Coding Club</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarLinks" class="collapse navbar-collapse navbar-toggleable-sm">
+        <ul class="navbar-nav ml-auto">
+          <!--
+            Remember to add the "bg-primary" class to the nav link that corresponds to
+            the section your page is in!
+          -->
+          <li class="nav-item active"><a class="nav-link" href="../../index.html">Home</a></li>
+          <li class="nav-item active"><a class="nav-link" href="../project.html">Projects</a></li>
+          <li class="nav-item active"><a class="nav-link" href="../meeting.html">Meetings</a></li>
+          <li class="nav-item active"><a class="nav-link" href="../member.html">Members</a></li>
+          <li class="nav-item active"><a class="nav-link" href="../resource.html">Resources</a></li>
+          <li class="nav-item active"><a class="nav-link" href="../competition.html">Competitions</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container">
+      <br>
+      <div class="jumbotron bg-light" style="padding-top: 45px;">
+
+        <center> <h1>Gotta Go Fast</h1> </center>
+        <h4 id="GottaGoFast">
+        </h4>
+        <p class="text-secondary">This mad lib was retrived from this <a href="https://aawesomepenguin.tumblr.com/post/183687200144/aawesomepenguin-an-official-sonic-movie-mad-libs">website</a> and was not created by me. 
+            I do not own any of the words and this is only for entertainment and educational purposes only.</p>
+
+        <!--
+          New HTML content goes here.
+          If you add any scripts, add them under line 50, and any styling under line 12.
+          Consider adding inline <style>s under a comment called "Inline Files" or "Inline Styles".
+        -->
+
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script > 
+        var animal, noun1, color1, noun2, number, celebrity, pluralNoun1, verb, pluralNoun2, adjective1, noun3, noun4, adjective2, typeOfFood, adjective3, face, partOfBody, adjective4;
+        
+
+        animal = prompt("Thanks for clicking on the mad libs link! Can I get an animal?  ");
+        noun1 = prompt("Can I get a noun?");
+        color1 = prompt("can I get a color?");
+        noun2 = prompt("Let me get another noun");
+        number = prompt("give me a number");
+        celebrity = prompt("let me have the name of a celebrity");
+        pluralNoun1 = prompt("This time I need a plural noun");
+        verb = prompt("I need a verb");
+        pluralNoun2 = prompt("I need another plural noun");
+        adjective1 = prompt("Can I get an adjective");
+        noun3 = prompt("I need another noun");
+        noun4 = prompt("One more noun please");
+        adjective2 = prompt("Another adjective also");
+        typeOfFood = prompt("This time, type of food");
+        adjective3 = prompt("I need an adjective");
+        face = prompt("Give me something that's on your face ");
+        partOfBody = prompt("name a part of the body");
+        adjective4 = prompt("last one, I need an adjective");
+      
+        document.getElementById("GottaGoFast").innerHTML = "Sonic, the Hedge- " + animal + " is a Sonic "+ noun1 + " with "+ color1 + " fur. He is the fastest "+ noun2 + " around and can run " + number +" miles an hour. "
+            + celebrity + " the Hedgehog also has super-powered "+pluralNoun1 + " and can "+ verb + " better than almost anyone else. Sonic is able to harness the power of the Chaos " + pluralNoun2+ " , which are "+ adjective1+ 
+            " -powered crystals that allow him to tranform into Super "+noun3 + " Sonic maybe be a/an "+ noun4+ " , but he doesn't just use his "+
+             adjective2 + " abilities for fun, he uses them to defeat his enemies, such as Dr. "+typeOfFood + "-man. And he does it all with a/an "+ adjective3+ " smile and a confident "+ face +
+              " - even though some people think that his "+ partOfBody+ " is too big. One thing is for certain: Sonic is definitely a/an "+ adjective4+ " hero.";
+
+
+        </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
